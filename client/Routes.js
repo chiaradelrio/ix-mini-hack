@@ -9,9 +9,16 @@ const ProjectsLoadable = Loadable({
   loading: Loading
 });
 
+const ProjectDetailsLoadable = Loadable({
+  loader: () =>
+    import("./components/pages/project-details" /* webpackChunkName: 'page__project-details' */),
+  loading: Loading
+});
+
 const Routes = () => (
   <React.Fragment>
     <Route path="/" exact component={ProjectsLoadable} />
+    <Route path="/projects/:id" component={ProjectDetailsLoadable} />
   </React.Fragment>
 );
 
