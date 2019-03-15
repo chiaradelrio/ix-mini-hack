@@ -10,7 +10,13 @@ const webpackConfigServer = {
   externals: [nodeExternals()],
   entry: path.resolve(__dirname, "server/index.js"),
   module: {
-    rules: [{ test: /\.js$/, exclude: /node_modules/, loader: "babel-loader" }]
+    rules: [
+      { test: /\.js$/, exclude: /node_modules/, loader: "babel-loader" },
+      {
+        test: /\.(png|svg|jpg|gif)$/,
+        use: ["file-loader"]
+      }
+    ]
   },
   output: {
     path: path.resolve(__dirname, "dist"),

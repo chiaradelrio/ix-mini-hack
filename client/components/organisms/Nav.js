@@ -25,12 +25,6 @@ const Nav = () => (
       <li>
         <Link href="/">Home</Link>
       </li>
-      <li>
-        <Link href="/tabs">Tabs demo</Link>
-      </li>
-      <li>
-        <Link href="/some-page">Some page</Link>
-      </li>
     </NavLinkList>
   </NavContainer>
 );

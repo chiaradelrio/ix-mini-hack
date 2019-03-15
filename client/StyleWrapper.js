@@ -5,10 +5,10 @@ import NormalizeCSS from "./assets/normalize-css";
 
 const theme = {
   colours: {
-    primary: "darkslategrey",
+    primary: "#365E82",
     secondary: "white",
-    accent: "#81d06a",
-    subtle: "lightslategrey"
+    accent: "#FFC1A8",
+    subtle: "#FFE5C4"
   },
   spacing: {
     x_large: "10rem",

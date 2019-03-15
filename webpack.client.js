@@ -11,7 +11,13 @@ const webpackConfigClient = {
     app: ["./client/index.js"]
   },
   module: {
-    rules: [{ test: /\.js$/, exclude: /node_modules/, loader: "babel-loader" }]
+    rules: [
+      { test: /\.js$/, exclude: /node_modules/, loader: "babel-loader" },
+      {
+        test: /\.(png|svg|jpg|gif)$/,
+        use: ["file-loader"]
+      }
+    ]
   },
   output: {
     path: path.resolve(__dirname, "dist"),
