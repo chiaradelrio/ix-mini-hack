@@ -1,0 +1,193 @@
+{
+  "projects": [
+    {
+      "title": "Chiara's Cafe",
+      "status": "Development",
+      "background": "We are helping Chiara's Cafe to build a new booking system to allow their customers to reserve a table for their lunch time menus",
+      "billable": true,
+      "roles": [
+        {
+          "title": "Programme Lead",
+          "description": "This person will be responsible for how the management of the project and also the delivery of booking system.",
+          "available": false,
+          "skills": ["Management", "Time Management", "Organised"],
+          "start": ""
+        },
+        {
+          "title": "Technical Lead",
+          "description": "This person will be responsible for the management of the development teams.",
+          "available": true,
+          "skills": ["Development", "Technical Jargon", "Organised"],
+          "start": "ASAP"
+        },
+        {
+          "title": "Delivery Lead",
+          "description": "This person will be responsible for how the delivery and integration of booking system for the client.",
+          "available": true,
+          "skills": ["Clever", "Leader", "Organised"],
+          "start": "ASAP"
+        }
+      ]
+    },
+    {
+      "title": "Hazik's Hats",
+      "status": "Discovery",
+      "background": "We're creating an online tool for Hazik's Hat customers to design their own hats and get them delivered to their homes.",
+      "billable": true,
+      "roles": [
+        {
+          "title": "Project Manager",
+          "description": "We're looking for someone to manage a small team of developers to create systems.",
+          "available": true,
+          "skills": ["Management", "Delivery", "Design Thinking"],
+          "start": "01/07/2019"
+        },
+        {
+          "title": "Developer",
+          "description": "This person will be responsible for the development of the front-end web screens.",
+          "available": true,
+          "skills": ["React", "Javascript", "Communication"],
+          "start": "ASAP"
+        },
+        {
+          "title": "Design Lead",
+          "description": "This person will be responsible for designing all the UX and UI for the new system.",
+          "available": false,
+          "skills": ["Design", "Leader", "Creative"],
+          "start": ""
+        }
+      ]
+    },
+    {
+      "title": "Joe's Jabbers",
+      "status": "Discovery",
+      "background": "We are helping Joe's Jabber's boxing gym to implement a new system to attract new and upcoming boxers",
+      "billable": true,
+      "roles": [
+        {
+          "title": "Programme Lead",
+          "description": "This person will be responsible for how the management of the project.",
+          "available": true,
+          "skills": ["Management", "Time Management", "Organised"],
+          "start": "01/05/2019"
+        },
+        {
+          "title": "Technical Lead",
+          "description": "This person will be responsible for the management of the development teams.",
+          "available": false,
+          "skills": ["Development", "Technical Jargon", "Organised"],
+          "start": ""
+        },
+        {
+          "title": "Solution Lead",
+          "description": "This person will be responsible for how the delivery and integration of online attraction tool.",
+          "available": true,
+          "skills": ["Clever", "Leader", "Organised"],
+          "start": "01/05/2019"
+        }
+      ]
+    },
+    {
+      "title": "Chris' Club",
+      "status": "Discovery",
+      "background": "We're looking to create a solution for Chris' Club clients to get live financial data on the go.",
+      "billable": true,
+      "roles": [
+        {
+          "title": "Mobile Lead",
+          "description": "This person will be responsible for running the mobile project.",
+          "available": true,
+          "skills": ["Mobile", "Management", "Organised"],
+          "start": "01/05/2019"
+        },
+        {
+          "title": "Design Lead",
+          "description": "This person will be responsbile for leading the design thinking workshops for ideation.",
+          "available": true,
+          "skills": ["Design Thinking", "Technical", "Organised"],
+          "start": "01/05/2019"
+        },
+        {
+          "title": "Technical Lead",
+          "description": "This person will be responsible for how the delivery of the system.",
+          "available": false,
+          "skills": ["Smart", "Leader", "Technical"],
+          "start": ""
+        }
+      ]
+    },
+    {
+      "title": "Mark's Mops",
+      "status": "Handover",
+      "background": "We are helping Mark's Mops to create a new employee management system including payroll and time management.",
+      "billable": true,
+      "roles": [
+        {
+          "title": "Programme Lead",
+          "description": "This person will be responsible for how the management of the project and also the delivery of booking system.",
+          "available": false,
+          "skills": ["Management", "Time Management", "Organised"],
+          "start": ""
+        },
+        {
+          "title": "Technical Lead",
+          "description": "This person will be responsible for the management of the development teams.",
+          "available": false,
+          "skills": ["Development", "Technical Jargon", "Organised"],
+          "start": "ASAP"
+        },
+        {
+          "title": "Implementation Lead",
+          "description": "This person will be responsible for implementing the system into Mark's Mop's head office.",
+          "available": true,
+          "skills": ["Implementation", "Documentation", "Organised"],
+          "start": "ASAP"
+        }
+      ]
+    }
+  ],
+  "challenges": [
+    {
+      "task": "Create a function that will allow you to enter a date and time which will check the database to see if this available",
+      "link": "https://codepen.io/lbain/pen/ENpzBZ",
+      "resources": [
+        {
+          "description": "React Framework",
+          "link": "https://reactjs.org/"
+        },
+        {
+          "description": "What is React",
+          "link": "https://en.wikipedia.org/wiki/React_(JavaScript_library)"
+        }
+      ]
+    },
+    {
+      "task": "Create some CSS to turn a checkbox into a mobile-like toggle.",
+      "link": "https://codepen.io/Pinjasaur/pen/KqNqLa",
+      "resources": [
+        {
+          "description": "CodePen Tutorial",
+          "link": "https://codepen.io/tutweb/"
+        },
+        {
+          "description": "CSS Hacks",
+          "link": "http://browserhacks.com/"
+        }
+      ]
+    },
+    {
+      "task": "Design a screen to allow user to upload a file and display it on the screen",
+      "link": "https://codepen.io/lbain/pen/ENpzBZ",
+      "resources": [
+        {
+          "description": "Adobe Mobile UX - Do's and Don'ts ",
+          "link": "https://theblog.adobe.com/10-dos-donts-mobile-ux-design/"
+        },
+        {
+          "description": "Sketch",
+          "link": "https://www.sketchapp.com/"
+        }
+      ]
+    }
+  ]
+}
